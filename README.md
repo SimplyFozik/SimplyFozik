@@ -9,9 +9,9 @@
 
 ### 👋 My Social Links
 <p aling="left">
-  <a href="https://t.me/SimplyFozik" target="_blank"><img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/354443/telegram.svg"></a>
-  <a href="https://www.youtube.com/@SimpleFozik" target="_blank"><img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/475700/youtube-color.svg"></a>
-  <a href="http://fozik.ru" target="_blank"><img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/529517/code-2.svg"></a>
+  <a href="https://t.me/SimplyFozik"><img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/354443/telegram.svg"></a>
+  <a href="https://www.youtube.com/@SimpleFozik"><img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/475700/youtube-color.svg"></a>
+  <a href="http://fozik.ru"><img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/529517/code-2.svg"></a>
 </p>
 <br>
 
