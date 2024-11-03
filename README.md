@@ -2,7 +2,7 @@
 
 **`I'm Fozik (Developer/Creator)`**
 
-### I'm an young indie developer that still learning many diffrent code languages
+### I'm a young indie developer that still learning many various code languages
 
 #
 
