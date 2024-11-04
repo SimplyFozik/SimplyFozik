@@ -1,9 +1,9 @@
 <!-- Hello Everyone :D -->
 ## 🖥 Fozik
-
-**`I'm Fozik (Developer/Creator)`**
-
-### I'm a young indie developer that still learning many various code languages
+### About Me 💡
+Hi there, I'm a Fozik! I'm a young indie developer who is still studying a lot of different programming languages.
+> [!NOTE]
+> Most of my repositories are private.
 
 #
 
