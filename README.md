@@ -37,4 +37,4 @@ Hi there, I'm a Fozik! I'm a young indie developer who is still studying a lot o
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=simplyfozik&layout=compact&border_radius=20&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff&icon_color=58a6ff&hide_border=true)
 
 > [!NOTE]
-> most of my repositories are private and the statistics may not be accurate.
+> most of my repositories are ***private*** and the statistics may _not be accurate_.
