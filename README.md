@@ -15,3 +15,5 @@ I'm a Fozik! I'm a young programmer who is still studying a lot of different pro
 That's awesome, consider donating:
 
 - [Ko-Fi](https://ko-fi.com/fozik).
+
+<img align="left" src="/metrics.plugin.steam.svg" alt="Metrics" width="450">
