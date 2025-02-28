@@ -2,7 +2,7 @@
 
 # Hey there, I'm `Fozik`.
 
-<img align="right" src="/github-metrics.svg" alt="Metrics" width="450">
+<img align="right" src="/github-metrics.svg" alt="Metrics" width="375">
 
 > [fozik.ru](https://fozik.ru)
 
