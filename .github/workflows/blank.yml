@@ -48,6 +48,9 @@ jobs:
           plugin_notable_indepth: yes
           plugin_notable_repositories: yes
           plugin_notable_self: yes
+          pluign_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_sort: activity
           plugin_notable_types: commit, pull_request
           repositories_affiliations: 
           repositories_forks: yes
