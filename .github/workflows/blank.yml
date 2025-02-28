@@ -57,7 +57,7 @@ jobs:
           filename: metrics.plugin.steam.svg
           token: NOT_NEEDED
           base: ""
-          plugin_steam_token: ${{ steam.STEAM_KEY }}
+          plugin_steam_token: ${{ secrets.steam.STEAM_KEY }}
           plugin_steam: yes
           plugin_steam_user: "0"
           plugin_steam_sections: recently-played
