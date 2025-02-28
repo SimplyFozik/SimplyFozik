@@ -50,6 +50,7 @@ jobs:
           plugin_notable_self: yes
           plugin_notable_types: commit, pull_request
           repositories_forks: yes
+          repositories_affiliations: 
           name: Recently played games
       - uses: lowlighter/metrics@latest
         with:
