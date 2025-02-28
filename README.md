@@ -16,4 +16,4 @@ That's awesome, consider donating:
 
 - [Ko-Fi](https://ko-fi.com/fozik).
 
-<img align="left" src="/metrics.plugin.steam.svg" alt="Metrics" width="425">
+<img align="left" src="/metrics.plugin.steam.svg" alt="Metrics" width="400">
