@@ -25,7 +25,7 @@ jobs:
           base_hireable: yes
           base_indepth: yes
           config_octicon: yes
-          config_timezone: America/Los_Angeles
+          config_timezone: Asia/Yekaterinburg
           config_twemoji: yes
           plugin_achievements: no
           plugin_achievements_display: compact
