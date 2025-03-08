@@ -12,9 +12,8 @@ I'm a Fozik! A young coder discovering the wide world of computer code. enthusia
 ---
 
 ### Skills and Technologies
-- 💻 Languages: C++, C#, Python
-- 🛠️ Tools: Git, Visual Studio, Unity
-
+- 💻 Languages: C++, C#, Python, Lua
+- 🛠️ Tools: Git, Flask, Waitress, HTML, CSS
 ---
 
 ### Have an idea? Connect with Me
