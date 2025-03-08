@@ -22,7 +22,7 @@ Let's collaborate and bring it to life!
 - 📫 Connect with me on
   > [Telegram](https://t.me/SimplyFozik)
 - 🌐 Visit my website:
-  > [fozik.ru](https://fozik.ru)
+  > [fozik.ru](http://fozik.ru)
 
 ---
 
