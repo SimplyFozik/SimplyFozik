@@ -18,7 +18,7 @@ I'm a Fozik! A young coder discovering the wide world of computer code. enthusia
 
 ### Have an idea? Contact with Me
 Let's collaborate and bring it to life!
-- 📫 Connect with me on
+- 📫 Contact with me on
   > [Telegram](https://t.me/SimplyFozik)
 - 🌐 Visit my website:
   > [fozik.online](http://fozik.online)
