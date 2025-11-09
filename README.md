@@ -12,8 +12,9 @@ I'm a Fozik! A young coder discovering the wide world of computer code. enthusia
 ---
 
 ### Skills and Technologies
-- 💻 Languages: C++, C#, Python, Lua
-- 🛠️ Tools: Git, Flask, Waitress, HTML, CSS
+- 💻 Languages: C++, Python
+- 🛠️ Tools: Git, Nginx, HTML, CSS
+- 👨‍💻 CodeForces: [Profile-Link](https://codeforces.com/profile/Fozik)
 ---
 
 ### Have an idea? Contact with Me
