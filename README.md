@@ -21,9 +21,7 @@ Let's collaborate and bring it to life!
 - 📫 Contact with me on
   > [Telegram](https://t.me/SimplyFozik)
 - 🌐 Visit my website:
-  > [fozik.online](http://fozik.online)
-  > /
-  > [fozik.ru](http://fozik.ru)
+  > [epsilon11.online](http://epsilon11.online)
 
 ---
 
