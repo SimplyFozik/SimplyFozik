@@ -9,7 +9,7 @@
 
 </div>
 
-<img align="right" src="/github-metrics.svg" alt="Metrics" width="380">
+<img align="right" src="/github-metrics.svg" alt="Metrics" width="480">
 
 ### About
 
@@ -33,6 +33,6 @@
 ### Support
 <img src="https://img.shields.io/badge/Ko--fi-21262D?style=flat-square&logo=kofi&logoColor=58A6FF&labelColor=161B22" alt="Ko-fi" height="26">
 
-<br><br>
+<br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:161B22&height=80&section=footer" width="100%" alt="footer">
