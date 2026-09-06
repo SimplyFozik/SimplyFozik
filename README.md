@@ -11,22 +11,22 @@
 
 <img align="right" src="/github-metrics.svg" alt="Metrics" width="480">
 
-### About
+### **About**
 
-- Self-taught **C++** developer, learning by building rather than by courses
+- Self-taught **C++** developer, learning by developing rather than by courses
 - Competitive programming on **Codeforces** in spare time
 
-### Currently building
+### **Currently building**
 
-- **Epsilon** — a chess engine, working on search and evaluation
-- **EpsilonMath** — a CPU benchmark tool, refactoring the core
+- [**Epsilon**](https://github.com/E11Force/Epsilon) — a chess engine, working on search and evaluation
+- [**EpsilonMath**](https://github.com/SimplyFozik/EpsilonMath) — a CPU benchmark tool, refactoring the core
 
 
-### Stack
+### **Stack**
 
 <img src="https://skillicons.dev/icons?i=cpp,python,git,html,css&theme=dark" alt="stack">
 
-### Contact
+### **Contact**
 
 <img src="https://img.shields.io/badge/Codeforces-21262D?style=flat-square&logo=codeforces&logoColor=58A6FF&labelColor=161B22" alt="Codeforces" height="26"> <img src="https://img.shields.io/badge/Telegram-21262D?style=flat-square&logo=telegram&logoColor=58A6FF&labelColor=161B22" alt="Telegram" height="26">
 
