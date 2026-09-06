@@ -49,7 +49,7 @@ jobs:
           plugin_notable_types: commit, pull_request
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
-          config_padding: 0, 10%
+          config_padding: 0, 50%
           #name: Recently played games
       #- uses: lowlighter/metrics@latest
         #with:
