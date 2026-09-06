@@ -1,34 +1,38 @@
-# Hey there, I'm `Fozik`.
+<div align="center">
 
-<img align="right" src="/github-metrics.svg" alt="Metrics" width="450">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:161B22&height=170&section=header&text=Fozik&fontColor=58A6FF&fontSize=52&fontAlignY=40&desc=Self-taught%20C%2B%2B%20Developer&descAlignY=60&descSize=17&descColor=8B949E" width="100%" alt="header">
 
-----
+<p>
+  <img src="https://img.shields.io/github/followers/SimplyFozik?style=flat-square&logo=github&logoColor=58A6FF&label=Followers&labelColor=161B22&color=21262D" alt="followers" height="24">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=SimplyFozik.SimplyFozik&left_color=%23161B22&right_color=%2321262D&left_text=Profile%20views" alt="views" height="24">
+</p>
 
-I'm a Fozik! A young coder discovering the wide world of computer code. enthusiastic about C++<br>
-Always learning, always coding!
+</div>
 
-<img align="right" src="https://img.shields.io/github/followers/SimplyFozik?label=Follow&amp;style=social" alt="GitHub followers">
-<img align="right" src="https://komarev.com/ghpvc/?username=SimplyFozik" alt="Views"/>
+<img align="right" src="/github-metrics.svg" alt="Metrics" width="380">
 
----
+### About
 
-### Skills and Technologies
-- Languages: C++, Python
-- Tools: Git, HTML, CSS
-- CodeForces: [Profile-Link](https://codeforces.com/profile/Fozik)
----
+- Self-taught **C++** developer, learning by building rather than by courses
+- Competitive programming on **Codeforces** in spare time
 
-### Have an idea? Contact with Me
-Let's collaborate and bring it to life!
-- Contact with me on
-  > [Telegram](https://t.me/SimplyFozik)
+### Currently building
 
----
-
-### Like what I do?
-
-- That's awesome, consider donating:
-    > [Ko-Fi](https://ko-fi.com/fozik).
+- **Epsilon** — a chess engine, working on search and evaluation
+- **EpsilonMath** — a CPU benchmark tool, refactoring the core
 
 
-<!--<img align="left" src="/metrics.plugin.steam.svg" alt="Metrics" width="400">-->
+### Stack
+
+<img src="https://skillicons.dev/icons?i=cpp,python,git,html,css&theme=dark" alt="stack">
+
+### Contact
+
+<img src="https://img.shields.io/badge/Codeforces-21262D?style=flat-square&logo=codeforces&logoColor=58A6FF&labelColor=161B22" alt="Codeforces" height="26"> <img src="https://img.shields.io/badge/Telegram-21262D?style=flat-square&logo=telegram&logoColor=58A6FF&labelColor=161B22" alt="Telegram" height="26">
+
+### Support
+<img src="https://img.shields.io/badge/Ko--fi-21262D?style=flat-square&logo=kofi&logoColor=58A6FF&labelColor=161B22" alt="Ko-fi" height="26">
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:161B22&height=80&section=footer" width="100%" alt="footer">
