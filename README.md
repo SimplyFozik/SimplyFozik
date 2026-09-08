@@ -4,7 +4,7 @@
 
 <p>
   <img src="https://img.shields.io/github/followers/SimplyFozik?style=flat-square&logo=github&logoColor=58A6FF&label=Followers&labelColor=161B22&color=21262D" alt="followers" height="24">
-  <img src="https://img.shields.io/endpoint?url=https://hits.dwyl.com/SimplyFozik/SimplyFozik.json&style=flat-square&label=Profile%20views&labelColor=161B22&color=21262D" alt="views" height="24">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhits.dwyl.com%2FSimplyFozik%2FSimplyFozik.json&query=%24.message&style=flat-square&label=Profile%20views&labelColor=161B22&color=21262D&cacheSeconds=0" alt="views" height="24">
 </p>
 
 </div>
@@ -21,10 +21,15 @@
 - [**Epsilon**](https://github.com/E11Force/Epsilon) — a chess engine, working on search and evaluation
 - [**EpsilonMath**](https://github.com/SimplyFozik/EpsilonMath) — a CPU benchmark tool, refactoring the core
 
-
 ### **Stack**
 
-<img src="https://skillicons.dev/icons?i=cpp,python,git,html,css&theme=dark" alt="stack">
+<a href="https://en.wikipedia.org/wiki/C%2B%2B"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" alt="C++" height="40"></a>
+<a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><img src="https://skillicons.dev/icons?i=cs&theme=dark" alt="C#" height="40"></a>
+<a href="https://en.wikipedia.org/wiki/Python_(programming_language)"><img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" height="40"></a>
+<a href="https://en.wikipedia.org/wiki/Git"><img src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git" height="40"></a>
+<a href="https://en.wikipedia.org/wiki/HTML"><img src="https://skillicons.dev/icons?i=html&theme=dark" alt="HTML" height="40"></a>
+<a href="https://en.wikipedia.org/wiki/CSS"><img src="https://skillicons.dev/icons?i=css&theme=dark" alt="CSS" height="40"></a>
+<a href="https://en.wikipedia.org/wiki/Bash"><img src="https://skillicons.dev/icons?i=bash&theme=dark" alt="Bash" height="40"></a>
 
 ### **Contact**
 
