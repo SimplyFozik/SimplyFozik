@@ -4,7 +4,7 @@
 
 <p>
   <img src="https://img.shields.io/github/followers/SimplyFozik?style=flat-square&logo=github&logoColor=58A6FF&label=Followers&labelColor=161B22&color=21262D" alt="followers" height="24">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=SimplyFozik.SimplyFozik&left_color=%23161B22&right_color=%2321262D&left_text=Profile%20views" alt="views" height="24">
+  <img src="https://img.shields.io/endpoint?url=https://hits.dwyl.com/SimplyFozik/SimplyFozik.json&style=flat-square&label=Profile%20views&labelColor=161B22&color=21262D" alt="views" height="24">
 </p>
 
 </div>
@@ -28,6 +28,8 @@
 
 ### **Contact**
 
-[<img src="https://img.shields.io/badge/Codeforces-21262D?style=flat-square&logo=codeforces&logoColor=58A6FF&labelColor=161B22" alt="Codeforces" height="26">](https://codeforces.com/profile/Fozik) [<img src="https://img.shields.io/badge/Telegram-21262D?style=flat-square&logo=telegram&logoColor=58A6FF&labelColor=161B22" alt="Telegram" height="26">](https://t.me/SimplyFozik)
+[<img src="https://img.shields.io/badge/Telegram-21262D?style=flat-square&logo=telegram&logoColor=58A6FF&labelColor=161B22" alt="Telegram" height="26">](https://t.me/SimplyFozik)
+[<img src="https://img.shields.io/badge/Discord-21262D?style=flat-square&logo=discord&logoColor=58A6FF&labelColor=161B22" alt="Discord" height="26">](https://discord.com/users/577071166095884290)
+[<img src="https://img.shields.io/badge/Codeforces-21262D?style=flat-square&logo=codeforces&logoColor=58A6FF&labelColor=161B22" alt="Codeforces" height="26">](https://codeforces.com/profile/Fozik)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:161B22&height=80&section=footer" width="100%" alt="footer">
