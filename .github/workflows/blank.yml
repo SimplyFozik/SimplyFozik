@@ -1,21 +1,20 @@
-
 name: Metrics
 
 on:
-  # Daily update
+  # Update once per day
   schedule:
     - cron: "0 0 * * *"
 
-  # Manual update
+  # Allow manual runs from Actions
   workflow_dispatch:
 
-  # Update on push
+  # Update after changes to the default branch
   push:
     branches:
-      - master
       - main
+      - master
 
-# Prevent overlapping generations
+# Avoid running multiple generations at the same time
 concurrency:
   group: github-metrics
   cancel-in-progress: true
@@ -23,62 +22,58 @@ concurrency:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     permissions:
       contents: write
 
     steps:
-      - uses: lowlighter/metrics@v3.34
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@v3.34
         with:
-          # Authentication
+          # Personal access token used to read profile and repository data
           token: ${{ secrets.USER_TOKEN }}
 
-          # Account
+          # Account and output
           user: SimplyFozik
-
-          # Template
+          filename: github-metrics.svg
           template: classic
 
-          # Base sections
+          # Main profile sections
           base: header, activity, community, repositories, metadata
           base_hireable: yes
           base_indepth: no
 
+          # Include repositories you own, collaborate on, or can access as an organization member
+          repositories: 100
+          repositories_affiliations: owner, collaborator, organization_member
+          repositories_forks: yes
+
           # Appearance
-          config_octicon: yes
           config_timezone: Asia/Yekaterinburg
-          config_twemoji: yes
+          config_octicon: yes
+          config_gemoji: yes
           config_padding: 0, 15%
 
           extras_css: |
             h2 { color: #58A6FF !important; }
             a { color: #58A6FF !important; }
 
-          # Repository access
-          repositories_affiliations: owner, collaborator, organization_member
-          repositories_forks: yes
-
-          # Achievements
-          plugin_achievements: no
-
-          # Languages
+          # Programming languages
+          # 0 disables the section; the supported maximum is 8
           plugin_languages: yes
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 0
-          plugin_languages_recent_categories: markup, programming
+          plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
+          plugin_languages_colors: github
+          plugin_languages_details: bytes-size, percentage
           plugin_languages_indepth: no
 
-          # Lines of code
-          plugin_lines: yes
-          plugin_lines_sections: base
-          plugin_lines_delay: 30
+          # Lines plugin is intentionally left disabled for this baseline run.
+          # It queries contributor statistics for each fetched repository. With
+          # plugin_lines_delay > 0 it performs that repository query twice.
+          # Re-enable only after this workflow renders successfully:
+          # plugin_lines: yes
+          # plugin_lines_sections: base
+          # plugin_lines_delay: 0
 
-          # Disable unnecessary plugin
-          plugin_notable: no
-
-          # Steam plugin (disabled)
-          # plugin_steam: yes
