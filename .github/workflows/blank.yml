@@ -1,41 +1,67 @@
+
 name: Metrics
+
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  # Daily update
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Manual update
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master","main"]}
+
+  # Update on push
+  push:
+    branches:
+      - master
+      - main
+
+# Prevent overlapping generations
+concurrency:
+  group: github-metrics
+  cancel-in-progress: true
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: 
-      name: production
+
     permissions:
       contents: write
+
     steps:
       - uses: lowlighter/metrics@v3.34
         with:
+          # Authentication
           token: ${{ secrets.USER_TOKEN }}
-          # Options
+
+          # Account
           user: SimplyFozik
+
+          # Template
           template: classic
+
+          # Base sections
           base: header, activity, community, repositories, metadata
           base_hireable: yes
-          base_indepth: yes
+          base_indepth: no
+
+          # Appearance
           config_octicon: yes
           config_timezone: Asia/Yekaterinburg
           config_twemoji: yes
           config_padding: 0, 15%
+
           extras_css: |
             h2 { color: #58A6FF !important; }
             a { color: #58A6FF !important; }
-          # Include organization repos too, not just owned/collaborator ones
+
+          # Repository access
           repositories_affiliations: owner, collaborator, organization_member
+          repositories_forks: yes
+
+          # Achievements
           plugin_achievements: no
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
+
+          # Languages
           plugin_languages: yes
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
@@ -44,34 +70,15 @@ jobs:
           plugin_languages_recent_categories: markup, programming
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          # indepth mode clones repos and only diffs YOUR commits, capped at
-          # a hard 60s budget the action itself enforces — on a 24-repo
-          # account it runs out of time and reports whatever tiny repo it
-          # got to first. Off = GitHub's own per-repo language stats,
-          # instant and complete, which is what worked correctly before.
           plugin_languages_indepth: no
-          plugin_notable: no
-          plugin_notable_filter: stars:>100
-          plugin_notable_from: all
-          plugin_notable_indepth: yes
-          plugin_notable_repositories: yes
-          plugin_notable_self: yes
-          plugin_notable_types: commit, pull_request
-          repositories_forks: yes
+
+          # Lines of code
           plugin_lines: yes
           plugin_lines_sections: base
-          # Fixes the GitHub API returning cached zeroed diffs on first query
           plugin_lines_delay: 30
-          #name: Recently played games
-      #- uses: lowlighter/metrics@latest
-        #with:
-          #filename: metrics.plugin.steam.svg
-          #token: NOT_NEEDED
-          #base: ""
-          #plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          #plugin_steam: yes
-          #plugin_steam_user: "76561198871616617"
-          #plugin_steam_games_ignored: "400040,629520"
-          #plugin_steam_sections: player, most-played, recently-played
-          
-          #plugin_steam_achievements_limit: 0
+
+          # Disable unnecessary plugin
+          plugin_notable: no
+
+          # Steam plugin (disabled)
+          # plugin_steam: yes
